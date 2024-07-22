@@ -1,0 +1,101 @@
+#tswcssbuttons {
+  width: 180px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#tswcssbuttons ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: outside none none;
+}
+
+#tswcssbuttons li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  list-style: outside none none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tswcssbuttons li a {
+  color: yellow;
+  background-color: #e60066;
+  border: 1px outset #a10048;
+  text-decoration: none;
+  display: block;
+}
+
+#tswcssbuttons li a:hover {
+  color: white;
+  background-color: #a10048;
+}
+
+#tswcontproper {
+  background-color: #6666cc;
+  color: #330033;
+}
+
+#tswsideproper {
+  background-color: #9999ff;
+  height: 100%;
+  border-radius: 0px;
+}
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+}
+
+#gameLink {
+  display: inline;
+  float: none;
+  position: relative;
+  bottom: 180px;
+  left: 5px;
+}
+
+#body {
+  float: left;
+  display: block;
+  position: static;
+  visibility: visible;
+  background-color: #9999ff;
+}
+
+#tswcontent {
+  display: inline;
+  position: relative;
+  bottom: 100px;
+  right: 50px;
+  border-radius: 1px;
+  border: 3px hidden red;
+  width: 80%;
+}
+
+#tswfooter {
+  display: inline;
+  bottom: 50px;
+  border: 1px none red;
+}
+
+#tswsidecol {
+  height: 300px;
+}
+
+#TownBody {
+  display: block;
+  float: left;
+  position: relative;
+  top: 100px;
+  background-color: #9999ff;
+}
+
+#AboutBody {
+  display: inline;
+  position: relative;
+  top: 100px;
+  background-color: #9999ff;
+}
+

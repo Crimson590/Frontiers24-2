@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Logan Site Home</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 4.0.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="tswnavbar.css">
+  </head>
+  <body id="IndexBody">
+    <div id="tswcontainer">
+      <div id="tswheader">
+        <!-- start of header section: insert your logo, etc, here --><img src="images/samsung-memory-rMSYJWOIgMw-unsplash.jpg"
+
+          alt="Logo" style="width: 41px; height: 55px;" id="logo">
+        <p> Logan Bell's Site.&nbsp;</p>
+        <p>&nbsp;</p>
+        <!-- end of header section: insert your logo, etc, above this line --> </div>
+      <div id="tswcontent">
+        <div id="tswcontproper">
+          <!-- start of content column: insert your content here -->
+          <h1>Welcome </h1>
+          <p> This is my first web page ever! </p>
+          <p> In this site, I will explain a bit about myself, my hometown, and
+            my experience with the WPI Frontiers program.</p>
+          <p> In addition, I've also included a little game I've coded myself...</p>
+          <p> Okay, that's it. I've run out of meaningful things to say for this
+            placeholder content, and can't be bothered to think up any more
+            stuff that you're just going to delete anyway. </p>
+          <p> All the best for your site! </p>
+          <p>&nbsp;</p>
+          <!-- end of content column: put your content above this line --> </div>
+      </div>
+      <div id="tswsidecol">
+        <div id="tswsideproper">
+          <!-- start of side column: insert your navigation menu, etc, here -->
+          <p> Site Links: </p>
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutme.html">About Me</a></li>
+              <li><a href="mytown.html">My Town</a></li>
+            </ul>
+          </div>
+          <!-- end of side column: put your navigation menu, etc, above this line -->
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+      <div id="tswfooter"> <img src="images/lee-paz-aJJoTV1r87w-unsplash.jpg" alt=""
+
+          style="width: 165px; height: 105px;" id="gameLink">
+        <!-- start of footer section: insert your copyright notice, etc, here -->
+        <p>Copyright Logan Bell 2024 @ lbell1@wpi.edu, some rights reserved</p>
+        <!-- end of footer section: insert your copyright notice, etc, above this line -->
+      </div>
+    </div>
+  </body>
+</html>
