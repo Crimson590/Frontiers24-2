@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="styles.css">
     <link rel="stylesheet" type="text/css" href="tswnavbar.css">
   </head>
-  <body id="body">
+  <body id="AboutBody">
     <div id="tswcontainer">
       <div id="tswcontent">
         <div id="tswcontproper">
@@ -19,14 +19,16 @@
           <p> I am an attendee at WPI's Frontiers (2) program, and am taking a
             computer science course here, hence this interestingly made webpage!
           </p>
-          <p> And if you want a contact form (ie, one that your visitors can use
-            to reach you), go to the <a href="https://www.thesitewizard.com/wizards/feedbackform.shtml">Feedback
-              Form Wizard</a> to create one. Yes, it's free too. </p>
-          <p> Okay, that's it. I've run out of meaningful things to say for this
-            placeholder content, and can't be bothered to think up any more
-            stuff that you're just going to delete anyway. </p>
-          <p> All the best for your site! </p>
-          <p>&nbsp;</p>
+          <p>I am going into my senior year of high school this August, and will
+            graduate that year!</p>
+          <p>I like playing video games and Trading Card games like Yu-Gi-Oh!
+            and Magic the Gathering.</p>
+          <p>In my free time I like to code mods for video games I play, like <em>Terraria</em></p>
+          <p>&nbsp;<img src="images/Yugioh.jpg" alt="" style="width: 131px; height: 190px;">&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; <img src="images/MTG.jpg" alt="" style="width: 136px; height: 189px;">
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <img src="images/Tlogo-removebg-preview.png"
+              alt="" style="width: 167px; height: 188px;"></p>
           <div id="tswcssbuttons">
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -37,7 +39,19 @@
           <!-- end of content column: put your content above this line --> </div>
         <div id="tswfooter">
           <!-- start of footer section: insert your copyright notice, etc, here -->
-          <p>Copyright Logan Bell 2024 @ lbell1@wpi.edu, some rights reserved</p>
+          <p><br>
+          </p>
+          <p><br>
+          </p>
+          <p><br>
+          </p>
+          <p><br>
+          </p>
+          <p><br>
+          </p>
+          <p><br>
+          </p>
+          <p>Copyright Logan Bell 2024 @ lbell1@wpi.edu, no rights reserved...</p>
           <!-- end of footer section: insert your copyright notice, etc, above this line -->
         </div>
       </div>

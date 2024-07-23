@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Logan Site Home</title>
+    <title>Logan Site Game</title>
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta name="generator" content="thesitewizard.com's Layout Wizard 4.0.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,31 +16,12 @@
         <p> Logan Bell's Site.&nbsp;</p>
         <p>&nbsp;</p>
         <!-- end of header section: insert your logo, etc, above this line --> </div>
+      <!--
       <div id="tswcontent">
         <div id="tswcontproperindx">
           <!-- start of content column: insert your content here -->
-          <p> <br>
-          </p>
-          <h1>&nbsp; Welcome </h1>
-          <p> <br>
-          </p>
-          <p>&nbsp; This is my first web page ever! </p>
-          <p>&nbsp; In this site, I will explain a bit about myself, my
-            hometown, and my experience with the WPI Frontiers program.</p>
-          <p>&nbsp; In addition, I've also included a little game I've coded
-            myself...</p>
-          <p><br>
-          </p>
-          <p>&nbsp; So far, I've had a great experience here at WPI. I've
-            learned several new things such as creating the website&nbsp;
-            &nbsp;&nbsp;&nbsp; you're reading and about the <i> Lord of the
-              Rings</i> universe!</p>
-          <p>&nbsp; I look forward to learning more about both of those topics
-            in the days to come, as I have only scratched
-            the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surface right
-            now! </p>
           <!-- end of content column: put your content above this line --> </div>
-      </div>
+     <!-- </div>--> 
       <div id="tswsidecol">
         <div id="tswsideproper">
           <!-- start of side column: insert your navigation menu, etc, here -->
