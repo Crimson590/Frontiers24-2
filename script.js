@@ -1,5 +1,5 @@
 // Generate a random number between 1 and 100
-const randomNumber = Math.floor(Math.random() * 100) + 1;
+/*const randomNumber = Math.floor(Math.random() * 100) + 1;
 
 // Variables to store references to DOM elements
 const guessField = document.getElementById('guessField');
@@ -42,4 +42,28 @@ function checkGuess() {
 function gameOver() {
     guessField.disabled = true;
     submitButton.disabled = true;
+}*/
+let userHand = [Math.floor(Math.random() * 10) + 1, Math.floor(Math.random() * 10)]
+let userTotal = 0
+const button = document.getElementById("new-button")
+
+function drawHand()
+{
+    for (var i = 0; i < userHand.length; i++)
+    {
+        userTotal = userTotal += userHand[i]
+    }
+    return userHand
+}
+drawHand()
+
+function pushButton()
+{
+    if (button)
+        {
+            userHand.push(Math.floor(Math.random() * 10))
+            drawHand()
+            console.log(userTotal)
+        }
+    
 }
