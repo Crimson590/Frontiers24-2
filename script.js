@@ -43,27 +43,110 @@ function gameOver() {
     guessField.disabled = true;
     submitButton.disabled = true;
 }*/
-let userHand = [Math.floor(Math.random() * 10) + 1, Math.floor(Math.random() * 10)]
-let userTotal = 0
-const button = document.getElementById("new-button")
+function randInt(min, max) {
+    let rand = Math.random();
+    rand = rand * (max - min + 1);
+    rand = rand + min;
+    rand = Math.floor(rand);
+    return rand;
+}
+
+let dealerHand = [randInt(1, 10), randInt(1, 10)]
+let dealerTotal
+let userHand = [randInt(1, 10), randInt(1, 10)]
+let userTotal
+
+const button = document.getElementById("draw-button")
+const textOutput = document.getElementById("text-output");
+const instCheckbox = document.getElementById("inst-checkbox")
+const instructions = document.getElementById("BlackJackInst")
+const restartButton = document.getElementById("restart-button")
+const endTurnButton = document.getElementById("end-draw-button") 
+
+function checkInstBox()
+{
+    if (instCheckbox.checked)
+    {
+        instructions.style.display = "block"
+    }
+    else
+    {
+        instructions.style.display = "none"
+    }
+}
 
 function drawHand()
 {
+    userTotal = 0
     for (var i = 0; i < userHand.length; i++)
     {
-        userTotal = userTotal += userHand[i]
+        userTotal += userHand[i]
     }
-    return userHand
+    return userTotal
 }
-drawHand()
+//drawHand()
+
+function drawDealerHand()
+{
+    dealerTotal = 0
+    for (var x = 0; x < dealerHand.length; x++)
+    {
+        dealerTotal += dealerHand[x] 
+    }
+    return dealerTotal
+}
+
+console.log(userHand)
+console.log("User Total: " + drawHand())
+console.log(dealerHand)
+console.log("Dealer Total: " + drawDealerHand())
 
 function pushButton()
 {
     if (button)
         {
-            userHand.push(Math.floor(Math.random() * 10))
+            var last = randInt(1, 10)
+            userHand.push(last)
+            console.log(last)
             drawHand()
+            
             console.log(userTotal)
         }
-    
+}
+
+function textFieldChanged() {
+    let score = userTotal;
+    textOutput.innerHTML = `${score}`;
+    if (score > 21)
+        {
+            alert(`Game Over!, your score was ${score}!`)
+            userTotal = 0
+            score = 0
+        }
+}
+
+function endTurn()
+{
+    while (dealerTotal < 16 || (dealerTotal > userTotal && dealerTotal <= 21))
+    {
+        var last = randInt(1, 10)
+        dealerHand.push(last)
+        console.log(last)
+        drawDealerHand()
+        
+        console.log(userTotal)
+        console.log(dealerTotal)
+        if (dealerTotal >= 16)
+        {
+            if (dealerTotal < userTotal)
+            {
+                alert("You win! You drew " + String(userTotal) + " while the dealer drew " + String(dealerTotal))
+            }
+            break;
+        }
+        else if (dealerTotal > userTotal && dealerTotal <= 21)
+        {
+            alert("You Lose! The Dealer drew " + String(dealerTotal) + " which is greater than " + String(userTotal))
+        }
+    }
 }
