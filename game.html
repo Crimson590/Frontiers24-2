@@ -17,18 +17,20 @@
     You can stop drawing cards at any time. The "Dealer" draws next. <br>
     They continue to draw until they either exceed 16 or they 
     have a higher value than you. <br>
-    If they exceed 16, they lose, if they gain a higher number than 
-    you while staying under 16, they win</p> <br>
+    If they exceed 16, they cannot draw any more, if they gain a higher number than 
+    you, they win</p> <br>
   
 
-  <button id="draw-button" onclick="pushButton(); textFieldChanged()">Push To draw!</button>
+  <button id="draw-button" class="btn" onclick="pushButton(); textFieldChanged()">Push To draw!</button>
   <br><br>
-  <p id="text-output" onload="drawHand()">(output goes here)</p>
+  
+  <p id="text-output">(output)</p>
+  <p id="dealer-output">(Dealer Output)</p>
   <br><br>
-  <button id="restart-button" onclick="location.reload()">Click to Restart</button>
+  <button id="restart-button" class="btn" onclick="location.reload()">Click to Restart</button>
   <br><br>
-  <button id="end-draw-button" onclick="endTurn()">Push to stop drawing</button>
-
+  <button id="end-draw-button" class="btn" onclick="endTurn()">Push to stop drawing</button>
+  <script src="./game.js">  </script>
 </body>
-<script src="./script.js">  </script>
+
 </html>
