@@ -125,11 +125,12 @@ function winners()
             {
                 alert("It's a tie...?")
             }
+            else if (dealerTotal > userTotal && dealerTotal <= 21)
+            {
+                alert("You Lose! The Dealer drew " + String(dealerTotal) + " which is greater than " + String(userTotal))
+                location.reload()
+            }
             location.reload()
         }
-    else if (dealerTotal > userTotal && dealerTotal <= 21)
-    {
-        alert("You Lose! The Dealer drew " + String(dealerTotal) + " which is greater than " + String(userTotal))
-        location.reload()
-    }
+    
 }

@@ -18,6 +18,11 @@ img {
 }
 
 body#game-body {
+  /* height: 100%;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center; */
   text-align: center;
   background-color: #9999ff;
   font-family: 'Courier New', Courier, monospace;

@@ -7,8 +7,9 @@
   <title>Game</title>
 </head>
 <body id="game-body">
+  
   <h1 id="BJTitle">BlackJack!</h1>
-
+  
   <input type="checkbox" id="inst-checkbox" onchange="checkInstBox()">
   <label for="inst-checkbox">Check to reveal instuctions</label> <br>
   <p id="BlackJackInst">You start with 2 random cards, each with a number 1 - 10. <br>
@@ -19,7 +20,7 @@
     have a higher value than you. <br>
     If they exceed 16, they cannot draw any more, if they gain a higher number than 
     you, they win</p> <br>
-  
+    <br><br><br><br><br><br><br><br><br>
 
   <button id="draw-button" class="btn" onclick="pushButton(); textFieldChanged()">Push To draw!</button>
   <br><br>
@@ -30,6 +31,11 @@
   <button id="restart-button" class="btn" onclick="location.reload()">Click to Restart</button>
   <br><br>
   <button id="end-draw-button" class="btn" onclick="endTurn()">Push to stop drawing</button>
+  <br><br>
+<!--   
+  <a href="https://www.youtube.com/watch?v=uHgt8giw1LY&pp=ygUfbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXAgbm8gYWRkcw%3D%3D">
+    <button id="roll-button" class="btn">Click Me!</button>
+  </a> -->
   <script src="./game.js">  </script>
 </body>
 
